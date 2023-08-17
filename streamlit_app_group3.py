@@ -1533,7 +1533,7 @@ with tabs[3]: #Aryton
     
     #tab headers
     st.title('Compare sales by location and hour')
-    st.write('''###### This tab allows you to predict and visualise the sales for the specified location and hour''')
+    st.write('###### This tab helps users to find the most optimal locations to in at specific times of the day. If you have a specific area in mind, but you have too many location options to choose from, or you are just unsure of the location that would provide the highest revenue per hour, this tab will take your worries away. With this tab, you can choose to view all the locations your truck is eligible to travel to, or narrow it down to the locations nearest to you (2km radius). Simply select the location(s) you want to travel to, and the hour of the day that you want to be there for, and this tab will provide you with sales predictions for each location for the specific hour, helping users to make more informed and data-driven decisions when choosing locations.')
     
     truck_id = st.selectbox('Select Truck ID to view the locations available to you:', [1,2,13,17,21,28,34,43,46,47])#[27, 28, 43, 44, 46, 47]
     truck_id = [truck_id]
